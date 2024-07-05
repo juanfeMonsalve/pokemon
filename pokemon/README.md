@@ -1,7 +1,7 @@
 Tecnologias usadas
 Java 17
 Spring boot 3.3.1
-Maven (el de intellij)
+Maven wrapper (el de intellij)
 Se hace llamado al servicio de pokemon mediante RestTemplate
 
 

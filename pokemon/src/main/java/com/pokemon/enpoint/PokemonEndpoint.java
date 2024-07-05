@@ -23,8 +23,6 @@ public class PokemonEndpoint {
     @ResponsePayload
     public GetPokemonResponse getPokemon(@RequestPayload GetPokemonRequest request) {
 
-        GetPokemonResponse getPokemonResponse=  pokemonService.getPokemones(request);
-        if (getPokemonResponse == null) return null;
-        return getPokemonResponse;
+        return pokemonService.getPokemones(request);
     }
 }
